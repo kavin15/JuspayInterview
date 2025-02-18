@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-18T15:38:57 IST" name="Default suite" finished-at="2025-02-18T15:39:16 IST" duration-ms="18784">
+  <suite started-at="2025-02-18T23:57:40 IST" name="Default suite" finished-at="2025-02-18T23:58:22 IST" duration-ms="42170">
     <groups>
     </groups>
-    <test started-at="2025-02-18T15:38:57 IST" name="Default test" finished-at="2025-02-18T15:39:16 IST" duration-ms="18784">
+    <test started-at="2025-02-18T23:57:40 IST" name="Default test" finished-at="2025-02-18T23:58:22 IST" duration-ms="42170">
       <class name="tests.FlipkartTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlipkartTest@543295b0]" started-at="2025-02-18T15:38:57 IST" name="setup" finished-at="2025-02-18T15:39:02 IST" duration-ms="4700" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlipkartTest@117159c0]" started-at="2025-02-18T23:57:40 IST" name="setup" finished-at="2025-02-18T23:57:44 IST" duration-ms="3586" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testFlipkart()[pri:0, instance:tests.FlipkartTest@543295b0]" started-at="2025-02-18T15:39:02 IST" name="testFlipkart" finished-at="2025-02-18T15:39:15 IST" duration-ms="13383" status="FAIL">
+        <test-method signature="testFlipkart()[pri:0, instance:tests.FlipkartTest@117159c0]" started-at="2025-02-18T23:57:44 IST" name="testFlipkart" finished-at="2025-02-18T23:58:22 IST" duration-ms="37931" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Credit/Debit / ATM Card']"}
@@ -20,9 +20,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bd9f0936fe36de7f328e01a70bcb308b, findElement {value=//div[text()='Credit/Debit / ATM Card'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.197, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\kavin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49757/devtoo..., se:cdpVersion: 132.0.6834.197, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bd9f0936fe36de7f328e01a70bcb308b]]>
+Command: [8d1a79d156614d17508b906719a212f1, findElement {value=//div[text()='Credit/Debit / ATM Card'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.197, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\kavin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56197/devtoo..., se:cdpVersion: 132.0.6834.197, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d1a79d156614d17508b906719a212f1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Credit/Debit / ATM Card']"}
@@ -31,9 +31,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bd9f0936fe36de7f328e01a70bcb308b, findElement {value=//div[text()='Credit/Debit / ATM Card'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.197, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\kavin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49757/devtoo..., se:cdpVersion: 132.0.6834.197, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bd9f0936fe36de7f328e01a70bcb308b
+Command: [8d1a79d156614d17508b906719a212f1, findElement {value=//div[text()='Credit/Debit / ATM Card'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.197, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\kavin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56197/devtoo..., se:cdpVersion: 132.0.6834.197, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d1a79d156614d17508b906719a212f1
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -85,7 +85,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFlipkart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlipkartTest@543295b0]" started-at="2025-02-18T15:39:15 IST" name="tearDown" finished-at="2025-02-18T15:39:16 IST" duration-ms="493" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlipkartTest@117159c0]" started-at="2025-02-18T23:58:22 IST" name="tearDown" finished-at="2025-02-18T23:58:22 IST" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
